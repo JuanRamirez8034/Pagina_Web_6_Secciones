@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International News</title>
+    <link rel="icon" href="img/Iconos/paginaIcono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Roboto+Mono:wght@100&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Contenedor Principal-->
+    <div id="cPrincipal">
+        <!--Cabezera de la pagina-->
+        <div id="header">
+            <img src="img/Iconos/paginaIcono.ico" alt=" Icono Notidia">
+            <h1>International News</h1>
+        </div>
+        <!--Barra de navegacion-->
+        <div id="nav">
+             <ul>
+                <li><a href="index.html" >Politica</a></li>
+                <li><a href="deportes.html" >Deporte</a></li>
+                <li><a href="tendencia.html" >Tendencia</a></li>
+                <li><a href="economia.html" >Economia</a></li>
+                <li><a href="musica.html" >Musica</a></li>
+                <li><a href="ciencia.html" class="activo">Ciencia</a></li>
+            </ul>   
+        </div>
+        <!--Contenido Principal-->
+        <div id="artPrincipal">
+            <img src="img/imgCiencia.bmp" alt="imagen" width="50px" height="50px" class="tamañoImagenNoticia" >
+            <marquee behavior="scroll" direction="left">IBM presenta el ordenador cuántico más potente de Europa y el primero que sale del laboratorio</marquee>
+            <p>Los ordenadores cuánticos comienzan a salir del laboratorio. La empresa IBM y la organización de investigación alemana Fraunhofer-Gesellschaft han presentado este martes el ordenador cuántico más potente de Europa y el primero de este tipo en el mundo que va a estar disponible para empresas, organizaciones de investigación o universidades. Se trata del Quantum System One, un modelo que hasta ahora sólo existía en los centros de datos de IBM en Nueva York.</p>
+            <p>El nuevo ordenador estará en la ciudad de Ehningen, Alemania, y a su presentación ha asistido la canciller, Angela Merkel.</p>
+            <p>Gracias a sus capacidades y velocidad, hay grandes expectativas para la computación cuántica, y con ella se espera abordar algunos de los problemas más complejos que incluso los superordenadores más potentes que existen en la actualidad no pueden resolver. Numerosos centros de investigación y compañías en todo el mundo están centradas en el desarrollo de las tecnologías cuánticas, que cuentan con una financiación pública que a nivel mundial alcanza ya los 22.000 millones de dólares, según datos de IBM.</p>
+
+        </div>
+        <!--Contenido Secundario-->
+        <div id="artSecundario">
+            <form action="#">
+
+                <label class="tcentrado">Contacto</label><br>
+                <label>Nombre</label><br>
+                <input type="text" placeholder="Ingrese su nombre" ><br>
+                <label>Apellido</label><br>
+                <input type="text" placeholder="Ingrese su apellido" ><br>
+                <label>Correo electronico</label><br>
+                <input type="email" placeholder="Ingrese su Correo electronico"><br>
+                <label>Telefono</label><br>
+                <input type="number" placeholder="Ingrese su telefono de contacto" ><br>
+                <label>Mensaje</label><br>
+                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje aquí" ></textarea>
+                <input type="submit" value="Enviar"><br>
+            </form>
+
+            <div id="redesSociales">
+                <a href="https://facebook.com"><img src="img/Iconos/facebook.ico" alt="Facebook" title="Facebook"></a>
+                <a href="https://instagram.com"><img src="img/Iconos/instagram.ico" alt="Instagram" title="Instagram">
+                <a href="https://api.whatsapp.com/send?phone=+584246230238"><img src="img/Iconos/whatsapp.ico" alt="whatsapp" title="Whatsapp"></a>
+            </div>
+        </div>
+        <!--Pie de pagina-->
+        <div id="piePagina" class="clear">
+            <h6>© 2021. Todos los derechos reservados <br>Juan Ramírez<br>Maracaibo Edo. Zulia</h6>
+        </div>
+    </div>
+</body>
+</html>
